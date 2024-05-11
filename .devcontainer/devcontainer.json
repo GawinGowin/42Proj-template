@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+	"name": "C++",
+	"image": "ghcr.io/gawingowin/42-container:77b1a51",
+	"runArgs": [
+		"-it", "--rm",
+		"--name", "42-container",
+		"--env-file", "${localWorkspaceFolder}/.env"
+	],
+	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
+	"initializeCommand": "${localWorkspaceFolder}\\export_localip.bat",
+	"postCreateCommand": "echo $DISPLAY",
+	"mounts": [
+		{ "source": "42-repo", "target": "/workspace/repo", "type": "volume" }
+	],
+	"remoteUser": "root",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"kube.42header",
+				"tomoki1207.pdf",
+				"mhutchie.git-graph",
+				"GitHub.copilot"
+			],
+			"settings": {
+				"C_Cpp.default.cStandard": "gnu99",
+				"github.copilot.chat.localeOverride": "en",
+				"github.copilot.enable": {
+					"markdown": "true"
+				  }
+			}
+		}
+	}
+}
