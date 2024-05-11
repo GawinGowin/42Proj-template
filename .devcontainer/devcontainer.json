@@ -12,9 +12,6 @@
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=delegated",
 	"initializeCommand": "${localWorkspaceFolder}\\export_localip.bat",
 	"postCreateCommand": "echo $DISPLAY",
-	"mounts": [
-		{ "source": "42-repo", "target": "/workspace", "type": "volume" }
-	],
 	"remoteUser": "root",
 	"customizations": {
 		"vscode": {
