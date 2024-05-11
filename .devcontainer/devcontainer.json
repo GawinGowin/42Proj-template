@@ -13,7 +13,7 @@
 	"initializeCommand": "${localWorkspaceFolder}\\export_localip.bat",
 	"postCreateCommand": "echo $DISPLAY",
 	"mounts": [
-		{ "source": "42-repo", "target": "/workspace/repo", "type": "volume" }
+		{ "source": "42-repo", "target": "/workspace", "type": "volume" }
 	],
 	"remoteUser": "root",
 	"customizations": {
