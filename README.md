@@ -3,7 +3,7 @@
 ## Description
 以下のことが可能
 - devcontainerを用いた開発環境
-	- norminetteの使用可能
+	- norminetteの使用
 	- 各種manの閲覧
 	- 各種linuxコマンドの実行
 	- mlx, readline関数の使用
