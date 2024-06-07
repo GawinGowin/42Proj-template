@@ -17,7 +17,7 @@
 		"vscode": {
 			"extensions": [
 				"kube.42header",
-				"tomoki1207.pdf",
+				// "tomoki1207.pdf",
 				"mhutchie.git-graph",
 				"GitHub.copilot"
 			],
