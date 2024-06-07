@@ -11,6 +11,7 @@
 
 ## Usage
 ### 前提
+- Windows OS
 - Dockerがインストールされている
 - Visual Studio Codeがインストールされている
 - Remote - Containers拡張機能がインストールされている
