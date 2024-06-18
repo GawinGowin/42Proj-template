@@ -7,6 +7,7 @@
 	- 各種manの閲覧
 	- 各種linuxコマンドの実行
 	- mlx, readline関数の使用
+	- [`francinette`](https://github.com/xicodomingues/francinette)コマンドの使用
 
 (課題提出前に、不要なファイル削除を忘れない)
 

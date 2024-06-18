@@ -2,7 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/cpp
 {
 	"name": "C++",
-	"image": "ghcr.io/gawingowin/42-container:77b1a51",
+	"image": "ghcr.io/gawingowin/42-container:19277a9",
 	"runArgs": [
 		"-it", "--rm",
 		"--name", "42-container",
