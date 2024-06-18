@@ -17,16 +17,18 @@
 		"vscode": {
 			"extensions": [
 				"kube.42header",
-				// "tomoki1207.pdf",
 				"mhutchie.git-graph",
 				"GitHub.copilot"
 			],
 			"settings": {
 				"C_Cpp.default.cStandard": "gnu99",
+				"editor.detectIndentation": false,
+				"editor.insertSpaces": false,
+				"editor.tabSize": 4,
 				"github.copilot.chat.localeOverride": "en",
 				"github.copilot.enable": {
 					"markdown": "true"
-				  }
+				}
 			}
 		}
 	}
