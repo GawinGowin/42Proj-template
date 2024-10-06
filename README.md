@@ -9,6 +9,12 @@
 	- mlx, readline関数の使用
 	- [`francinette`](https://github.com/xicodomingues/francinette)コマンドの使用
 
+- c++開発
+	- clang++ を使用したコンパイル
+	- clang-formatコマンドの使用
+	- clang-tidyコマンドの使用
+
+
 (課題提出前に、不要なファイル削除を忘れない)
 
 ## Usage
