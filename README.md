@@ -7,6 +7,7 @@
 	- 各種manの閲覧
 	- 各種linuxコマンドの実行
 	- mlx, readline関数の使用
+		- mlxに関してはdevcontainerにインストール済みだが、Make実行時にmlxをインストールするスクリプトを記述している。
 	- [`francinette`](https://github.com/xicodomingues/francinette)コマンドの使用
 
 - c++開発
