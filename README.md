@@ -31,7 +31,7 @@
 4. コンテナが起動するのを待つ
 5. 作業を開始する
 
-## 参照
+## 参考
 https://code.visualstudio.com/docs/devcontainers/containers
 
 ## Author

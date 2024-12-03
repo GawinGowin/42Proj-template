@@ -1,0 +1,24 @@
+{
+	"configurations": [
+		{
+			"name": "debug",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/a.out",
+			"args": [
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}",
+			"environment": [],
+			"externalConsole": false,
+			"preLaunchTask": "make",
+			"linux": {
+				"MIMode": "gdb",
+				"miDebuggerPath": "/usr/bin/gdb"
+			},
+			"osx": {
+				"MIMode": "lldb",
+			},
+		},
+	]
+}

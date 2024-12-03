@@ -1,0 +1,40 @@
+{
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "make",
+			"command": "make",
+			"args": [
+				"debug", "-C", "${workspaceFolder}",
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "norminette",
+			"command": "norminette",
+			"args": [
+				"--use-gitignore",
+				"${file}"
+			],
+			"group": "build",
+		},
+		{
+			"type": "process",
+			"label": "norminette:staged",
+			"command": "bash",
+			"args": [
+				"-c",
+				"git diff --name-only --cached | xargs norminette"
+			],
+			"group": "build",
+		}
+	],
+	"version": "2.0.0"
+}

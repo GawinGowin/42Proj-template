@@ -21,6 +21,8 @@
 				"GitHub.copilot"
 			],
 			"settings": {
+				"42header.email": "root@student.42.fr",
+				"42header.username": "root",
 				"C_Cpp.default.cStandard": "gnu99",
 				"editor.detectIndentation": false,
 				"editor.insertSpaces": false,
