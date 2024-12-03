@@ -31,10 +31,11 @@
 1. このリポジトリをクローンする
 2. Visual Studio Codeでこのリポジトリを開く
 3. [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)を起動
-4. 左下の「><」をクリックし、`Reopen in Container`を選択する
-5. コンテナが起動するのを待つ
-6. `.devcontainer/devcontainer.json`の`42header.email`と`42header.username`を適宜設定
-7. 作業を開始する
+	- 起動時の設定の一つである、`Disable access control`にチェックをつける
+5. 左下の「><」をクリックし、`Reopen in Container`を選択する
+6. コンテナが起動するのを待つ
+7. `.devcontainer/devcontainer.json`の`42header.email`と`42header.username`を適宜設定
+8. 作業を開始する
 
 ## 参考
 https://code.visualstudio.com/docs/devcontainers/containers
