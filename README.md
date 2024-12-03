@@ -14,12 +14,14 @@
 	- clang-formatコマンドの使用
 	- clang-tidyコマンドの使用
 
+- minilibXを使用するプロジェクトでのパターンの例を記載
 
 - [ ] 課題提出前に、不要なファイル削除を忘れない
 
 ## Usage
 ### 前提
 - Windows OS
+- [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)
 - Dockerがインストールされている
 - Visual Studio Codeがインストールされている
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)拡張機能がインストールされている
@@ -27,9 +29,11 @@
 ## 手順
 1. このリポジトリをクローンする
 2. Visual Studio Codeでこのリポジトリを開く
-3. 左下の「><」をクリックし、`Reopen in Container`を選択する
-4. コンテナが起動するのを待つ
-5. 作業を開始する
+3. [VcXsrv Windows X Server](https://sourceforge.net/projects/vcxsrv/)を起動
+4. 左下の「><」をクリックし、`Reopen in Container`を選択する
+5. コンテナが起動するのを待つ
+6. `.devcontainer/devcontainer.json`の`42header.email`と`42header.username`を適宜設定
+7. 作業を開始する
 
 ## 参考
 https://code.visualstudio.com/docs/devcontainers/containers
